@@ -1,0 +1,16 @@
+{
+  "name": "web-components-ui",
+  "version": "1.0.0",
+  "author": "lyllovelemon",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

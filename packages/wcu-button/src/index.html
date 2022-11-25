@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<template id="wcu-button">
+    <style>
+        .container{
+            padding: 8px;
+        }
+        button{
+            width: 200px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 1;
+            white-space: nowrap;
+            cursor: pointer;
+            background: #fff;
+            color: #333;
+            font-size: 14px;
+            margin: 0;
+            padding: 12px 20px;
+            border-radius: 4px;
+            outline: none;
+            transition: .1s;
+        }
+    </style>
+    <div class="container">
+        <button>默认文本</button>
+    </div>
+</template>
+<wcu-button text="默认文本22"> </wcu-button>
+<script src="index.js">
+</script>
+<script>
+    const element = document.querySelector('wcu-button')
+    element.text='lyl2测试'
+    // element.onClick=(val)=>{
+    //     console.log(val)
+    // }
+    element.addEventListener('click',()=>{
+        console.log(1)
+    })
+    element.addEventListener('onCustomClick',(e)=>{
+        console.log(e)
+    })
+</script>
+</body>
+</html>

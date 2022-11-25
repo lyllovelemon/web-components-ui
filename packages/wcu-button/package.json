@@ -1,0 +1,16 @@
+{
+  "name": "wcu-button",
+  "version": "1.0.0",
+  "author": "lyllovelemon",
+  "description": "基于web components的UI组件库，支持angular/vue/react/原生",
+  "dependencies": {
+    "@stencil/core": "2.18.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5",
+    "@stencil/sass": "^1.5.2"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<template id="wcu-dropdown">
+    <style>
+        .dropdown{
+            width: 100vw;
+            height: 50px;
+            background: lightblue;
+        }
+        .label{
+            font-size: 14px;
+            color: #333;
+        }
+        .dropdown-list-container{
+
+        }
+        .dropdown .visible .dropdown-list{
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+        }
+        .dropdown-list li.selected{
+            color: #66b1ff;
+            font-weight: 700;
+            z-index: 99;
+        }
+        .dropdown-list li:hover{
+            color:#66b1ff;
+            background-color: #ecf5ff;
+        }
+        .dropdown-list li:active,
+        .dropdown-list li:hover,
+        .dropdown-list li.selected{
+            border-right: none;
+            border-left: none;
+            border-width: 1px;
+        }
+    </style>
+    <div class="dropdown">
+        <span class="label">标签:</span>
+        <wcu-button></wcu-button>
+        <div class="dropdown-list-container">
+            <ul class="dropdown-list"></ul>
+        </div>
+    </div>
+</template>
+<wcu-dropdown label="下拉菜单" option="1" options='[{ "label": "Option 1", "value": 1 }, { "label": "Option 2", "value": 2 }]'>
+
+</wcu-dropdown>
+<script src="../wcu-button/src/index.js"></script>
+<script>
+    let dropTemplate = document.getElementById('wcu-dropdown')
+    class DropDown extends HTMLElement{
+        constructor(){
+            super()
+            this._dropdownRoot = this.attachShadow({mode:'open'})
+            this._dropdownRoot.appendChild(dropTemplate.content.cloneNode(true))
+
+            this.$label = this._dropdownRoot.querySelector('.label')
+            this.$button = this._dropdownRoot.querySelector('wcu-button')
+            this.$dropdwon = this._dropdownRoot.querySelector('.dropdown-list-container')
+            this.$dropdownList = this._dropdownRoot.querySelector('.dropdown-list')
+            this.visible = false
+
+            this.$button.addEventListener('onCustomClick',this.toggleVisible.bind(this))
+        }
+
+
+        static get observedAttributes(){
+            return ['label','option','options']
+        }
+        get label(){
+            return this.getAttribute('label')
+        }
+        set label(value){
+            this.setAttribute('label',value)
+        }
+        get option(){
+            return this.getAttribute('option')
+        }
+        set option(value){
+            this.setAttribute('option',value)
+        }
+        get options(){
+            return JSON.parse(this.getAttribute('options'))
+        }
+        set options(value){
+            this.setAttribute('options',JSON.stringify(value))
+        }
+        attributeChangedCallback(){
+            this.render()
+        }
+        toggleVisible(){
+            this.visible=!this.visible
+            this.visible ? this.$dropdwon.classList.add('visible'):this.$dropdwon.classList.remove('visible')
+        }
+        render(){
+            if(Array.isArray(this.options)){
+                console.warn('options must be an array')
+                return
+            }
+            this.$label.innerHTML = this.label
+            this.$button.setAttribute('text',(this.options.find((item)=>{
+                item.value = parseInt(this.option) || (this.options && this.options[0]).label
+            })))
+            this.options.forEach((item,key)=>{
+                let option = item
+                let $option = document.createElement('li')
+                this.$dropdownList.innerHTML=''
+                $option.innerHTML = option.label
+                if(this.option && this.option===key){
+                    $option.classList.add('selected')
+                }
+                this.$dropdownList.appendChild($option)
+                $option.addEventListener('click',()=>{
+                    this.option = option.value
+                    this.toggleVisible()
+                    this.dispatchEvent(new CustomEvent('onOptionChange',{
+                        detail:{detail:{...option,option,options:this.options}}
+                        })
+                    )
+                })
+            })
+            this.options=[{label:'测试',value:1},{label:'账户',value:2}]
+        }
+    }
+    window.customElements.define('wcu-dropdown',DropDown)
+
+
+</script>
+<script>
+    document.querySelector('wcu-dropdown').addEventListener('onOptionChange',(event)=>{
+        console.log('option change',event.detail)
+    })
+</script>
+</body>
+</html>
