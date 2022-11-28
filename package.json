@@ -4,13 +4,35 @@
   "author": "lyllovelemon",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e -V"
+    }
+  },
   "dependencies": {
-    "clean-webpack-plugin": "^4.0.0"
+    "clean-webpack-plugin": "^4.0.0",
+    "stencil": "^0.0.5"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@commitlint/cli": "^17.3.0",
+    "commitizen": "^4.2.5",
+    "commitlint-config-cz": "^0.13.3",
+    "cz-customizable": "^7.0.0",
+    "husky": "^8.0.2",
+    "lerna": "^4.0.0",
+    "standard-version": "^9.5.0",
+    "yorkie": "^2.0.0"
   }
 }
