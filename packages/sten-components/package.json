@@ -1,8 +1,0 @@
-{
-  "name": "@sten-design/components",
-  "version": "1.0.0",
-  "dependencies": {
-    "@sten-design/icons": "^1.0.0",
-    "@sten-design/themes": "^1.0.0"
-  }
-}
