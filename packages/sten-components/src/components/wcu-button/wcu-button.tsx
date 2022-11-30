@@ -9,7 +9,7 @@ export class WcuButton {
   @Prop() height:string='40'
   @Prop() text:string;
   @Prop() type:'primary'|'danger'|'success'|'info'|'warning'|'text'='info'
-  @Prop() size:'small'|'medium'|'large'='small'
+  @Prop() size:'small'|'medium'|'large'|'mini'='small'
   @Prop() disabled:boolean=false
   @Prop() loading:boolean = false
 
@@ -17,12 +17,16 @@ export class WcuButton {
   render() {
     return (
       <Host style={{...this.style}}>
-        {
-          this.loading ? 'loading...': <button style={{width:this.width+'px',height:this.height+'px'}}
-                                               class={{[`wcu-button-${this.type}`]:true,disabled:this.disabled,[this.size]:true}}>
-            { this.text ? this.text : <slot></slot>}
+         <button class={{[`wcu-button-${this.type}`]:true,disabled:this.disabled,[this.size]:true}}>
+           { this.loading && <div class="loading-mask">
+             <svg class="circular" viewBox="25 25 50 50">
+               <circle class="path" cx="50" cy="50" r="20" fill="none"/>
+             </svg>
+             <span class={{[`text-${this.type}`]:true}}>loading...</span>
+           </div>}
+           { !this.loading ?(this.text || <slot></slot>):''}
           </button>
-        }
+
 
       </Host>
     );

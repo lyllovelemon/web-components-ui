@@ -1,76 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0930ee3-6414-4fed-be33-e84195a0bab6" name="Default Changelist" comment="feat:增加button、icon组件">
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/my-component/my-component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/my-component/my-component.e2e.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/my-component/my-component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/my-component/my-component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/my-component/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-icon/icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-icon/test/wcu-icon.e2e.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-icon/test/wcu-icon.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-icon/wcu-icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-icon/wcu-icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/utils/utils.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/utils/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-components/stencil.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-icons/build/buildSvgJsonFiles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-icons/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-icons/svgs/aa-c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-icons/svgs/add-image.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-icons/svgs/add-user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-icons/svgs/add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-icons/svgs/alert-close-collapse.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-icons/svgs/alert-error-c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-icons/svgs/alert-error-circle-c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/common/animation/animation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/common/animation/transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/common/config.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/common/mixins/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/common/mode/custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/common/mode/dark-mode.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/common/mode/light-mode.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/common/mode/mode.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/common/variable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/components/icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/components/image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/components/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/sten-themes/src/index.scss" afterDir="false" />
+    <list default="true" id="c0930ee3-6414-4fed-be33-e84195a0bab6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-image/test/wcu-image.e2e.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-image/test/wcu-image.spec.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-image/wcu-image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-image/wcu-image.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-loading/test/wcu-loading.e2e.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-loading/test/wcu-loading.spec.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-loading/wcu-loading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-loading/wcu-loading.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/sten-icons/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sten-icons/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/sten-themes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sten-themes/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wcu-button/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sten-components/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wcu-button/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wcu-button/src/components/wcu-button/test/wcu-button.e2e.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/test/wcu-button.e2e.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wcu-button/src/components/wcu-button/test/wcu-button.spec.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/test/wcu-button.spec.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wcu-button/src/components/wcu-button/wcu-button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wcu-button/src/components/wcu-button/wcu-button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wcu-button/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wcu-button/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wcu-button/src/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wcu-button/stencil.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wcu-button/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sten-components/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-workspace.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sten-components/src/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sten-components/src/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sten-components/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sten-components/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -96,7 +40,51 @@
         <entry file="file://E:/sten-components/src/components/wcu-icon/wcu-icon.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-66">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/sten-components/src/components/wcu-loading/wcu-loading.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/sten-components/src/components/wcu-loading/wcu-loading.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+              <folding>
+                <element signature="e#301#1013#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,17 +92,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/sten-components/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="268">
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/sten-themes/src/common/mixins/mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
-              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -136,6 +124,7 @@
       <find>$--sten</find>
       <find>sten</find>
       <find>sten-icon</find>
+      <find>border-co</find>
     </findStrings>
     <replaceStrings>
       <replace>rmSync</replace>
@@ -150,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.cz-config.js" />
         <option value="$PROJECT_DIR$/packages/sten-components/src/index.ts" />
         <option value="$PROJECT_DIR$/packages/sten-components/src/components.d.ts" />
         <option value="$PROJECT_DIR$/packages/sten-components/src/utils/utils.spec.ts" />
@@ -195,18 +183,19 @@
         <option value="$PROJECT_DIR$/pnpm-workspace.yaml" />
         <option value="$PROJECT_DIR$/packages/sten-components/src/components/my-component/my-component.tsx" />
         <option value="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.css" />
-        <option value="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.scss" />
-        <option value="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.tsx" />
         <option value="$PROJECT_DIR$/packages/sten-components/src/components/wcu-icon/wcu-icon.tsx" />
         <option value="$PROJECT_DIR$/packages/sten-components/src/components/wcu-icon/icon.tsx" />
-        <option value="$PROJECT_DIR$/packages/sten-components/src/index.html" />
         <option value="$PROJECT_DIR$/packages/sten-themes/src/common/mixins/mixins.scss" />
+        <option value="$PROJECT_DIR$/packages/sten-components/src/components/wcu-loading/wcu-loading.tsx" />
+        <option value="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.tsx" />
+        <option value="$PROJECT_DIR$/packages/sten-components/src/index.html" />
+        <option value="$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="y" value="122" />
+    <option name="x" value="276" />
+    <option name="y" value="-22" />
     <option name="width" value="2318" />
     <option name="height" value="1376" />
   </component>
@@ -255,6 +244,24 @@
               <item name="web-components-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-components-ui" type="462c0819:PsiDirectoryNode" />
               <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="sten-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="wcu-button" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-components-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-components-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="sten-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="wcu-loading" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-components-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-components-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
               <item name="sten-themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,23 +270,6 @@
               <item name="packages" type="462c0819:PsiDirectoryNode" />
               <item name="sten-themes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-components-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-components-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="sten-themes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-components-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-components-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="sten-themes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="mixins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,7 +373,7 @@
       <workItem from="1669688046240" duration="11000" />
       <workItem from="1669702328806" duration="4144000" />
       <workItem from="1669707045576" duration="8202000" />
-      <workItem from="1669772409955" duration="7468000" />
+      <workItem from="1669772409955" duration="11765000" />
     </task>
     <task id="LOCAL-00001" summary="feat:lerna初始化">
       <created>1669369202140</created>
@@ -392,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1669369202140</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat:增加button、icon组件">
+      <created>1669779999830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669779999830</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39056000" />
+    <option name="totallyTimeSpent" value="43353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="765" extended-state="6" />
@@ -406,7 +403,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.502451" side_tool="true" weight="0.24980111" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.10361842" />
+      <window_info anchor="bottom" id="Messages" weight="0.36019737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4463277" />
@@ -417,7 +414,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.23163842" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26480263" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4375" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -479,20 +476,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat:增加button、icon组件" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/packages/sten-themes/src/components/icon.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/sten-themes/src/common/mode/mode.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/sten-themes/src/common/animation/animation.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -642,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/sten-components/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -721,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/sten-components/src/components/wcu-icon/icon.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1722">
@@ -738,25 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
-          <folding>
-            <element signature="e#857#884#0" />
-            <element signature="e#1077#1162#0" />
-            <element signature="e#1197#1279#0" />
-            <element signature="e#1203#1283#0" />
-            <element signature="e#1336#1410#0" />
-            <element signature="e#1568#1642#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/sten-components/src/components/wcu-icon/wcu-icon.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -774,17 +728,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/sten-components/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/sten-themes/src/common/mixins/mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/sten-components/src/components/wcu-loading/wcu-loading.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/sten-components/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/sten-components/src/components/wcu-loading/wcu-loading.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/sten-components/src/components/wcu-button/wcu-button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+          <folding>
+            <element signature="e#301#1013#0" />
+          </folding>
         </state>
       </provider>
     </entry>
