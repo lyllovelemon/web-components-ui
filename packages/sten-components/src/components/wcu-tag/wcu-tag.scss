@@ -1,0 +1,58 @@
+:host {
+  display: block;
+  // tag通用
+  --wcu-tag-width:auto;
+  --wcu-tag-color-white:#fff;
+  --wcu-tag-color-primary:#409eff;
+  --wcu-tag-color-danger:#f56c6c;
+  --wcu-tag-color-warning:#e6a23c;
+  --wcu-tag-color-success:#67c23a;
+  --wcu-tag-color-info:#909399;
+  --wcu-font-ss:12px;
+  --wcu-font-sm:14px;
+}
+.wcu-tag{
+  background-color: #ecf5ff;
+  display: inline-block;
+  height: 32px;
+  padding: 0 10px;
+  line-height: 30px;
+  font-size: var(--wcu-font-ss);
+  color: var(--wcu-tag-color-primary);
+  border: 1px solid #d9ecff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.wcu-tag-medium{
+  height: 28px;
+  line-height: 28px;
+}
+.wcu-tag-small{
+  height: 24px;
+  line-height: 24px;
+}
+.wcu-tag-mini{
+  height: 20px;
+  line-height: 20px;
+}
+.wcu-tag-primary{
+  background: var(--wcu-tag-color-primary);
+  border:1px solid var(--wcu-tag-color-primary);
+  color:var(--wcu-tag-color-white);
+}
+.wcu-tag-success{
+  background: var(--wcu-tag-color-success);
+  border:1px solid var(--wcu-tag-color-success);
+  color:var(--wcu-tag-color-white);
+}
+.wcu-tag-danger{
+  background: var(--wcu-tag-color-danger);
+  border:1px solid var(--wcu-tag-color-danger);
+  color:var(--wcu-tag-color-white);
+}
+.wcu-tag-warning{
+  background: var(--wcu-tag-color-warning);
+  border:1px solid var(--wcu-tag-color-warning);
+  color:var(--wcu-tag-color-white);
+}

@@ -1,3 +1,46 @@
 :host {
   display: block;
+
 }
+.wcu-loading-mask{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.is-fullscreen{
+  width: 100%;
+  height: auto;
+}
+.circular{
+  width: 20px;
+  height: 20px;
+  animation: rotate 2s linear infinite;
+}
+.path{
+  stroke-dasharray: 1,200;
+  stroke-dashoffset: 0;
+  stroke: #2878ff;
+  animation: dash 1.5s ease-in-out infinite;
+}
+@keyframes rotate {
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@keyframes dash {
+  0%{
+    stroke-dasharray: 1,200;
+    stroke-dashoffset: 0;
+  }
+  50%{
+    stroke-dasharray: 89,200;
+    stroke-dashoffset: -35px;
+  }
+  100%{
+    stroke-dasharray: 89,200;
+    stroke-dashoffset: -124px;
+  }
+}
+

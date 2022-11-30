@@ -8,7 +8,8 @@
     "commit": "git-cz",
     "release": "standard-version",
     "start:components": "lerna run start --scope=@sten-design/components",
-    "generate:components": "lerna run generate --scope=@sten-design/components"
+    "generate:components": "lerna run generate --scope=@sten-design/components",
+    "prepatch": "lerna version prepatch"
   },
   "config": {
     "commitizen": {
@@ -21,20 +22,28 @@
     }
   },
   "dependencies": {
-    "clean-webpack-plugin": "^4.0.0",
-    "@stencil/core": "^2.19.3"
+    "@stencil/core": "^2.19.3",
+    "clean-webpack-plugin": "^4.0.0"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "commitizen": "^4.2.5",
     "commitlint-config-cz": "^0.13.3",
     "cz-customizable": "^7.0.0",
+    "dumi": "^2.0.7",
     "husky": "^8.0.2",
     "lerna": "^4.0.0",
     "standard-version": "^9.5.0",
-    "yorkie": "^2.0.0"
+    "yorkie": "^2.0.0",
+    "prettier": "^2.4.1",
+    "pretty-quick": "^3.1.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "standard-version": {
+    "skip": {
+      "tags": true
+    }
   }
 }

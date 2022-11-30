@@ -17,7 +17,7 @@ export class WcuIcon {
   /**
    * 传入的class名称
    */
-  @Prop() classNames: string;
+  @Prop() classNames: string='label';
   /**
    * 图标颜色
    */
@@ -31,16 +31,17 @@ export class WcuIcon {
    */
   @Prop() spin: boolean;
   render() {
-    const { size, styles, classNames, color, rotate, spin } = this;
+    // const { size, styles, classNames, color, rotate, spin } = this;
     return (
       <Host>
-        <wcu-icon-aa-c {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-aa-c>
-        <wcu-icon-add-image {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-add-image>
-        <wcu-icon-add-user {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-add-user>
-        <wcu-icon-add {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-add>
-        <wcu-icon-alert-close-collapse {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-alert-close-collapse>
-        <wcu-icon-alert-error-c {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-alert-error-c>
-        <wcu-icon-alert-error-circle-c {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-alert-error-circle-c>
+        <i class={{'iconfont':true,[`icon-${this.classNames}`]:true}}> </i>
+        {/*<wcu-icon-aa-c {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-aa-c>*/}
+        {/*<wcu-icon-add-image {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-add-image>*/}
+        {/*<wcu-icon-add-user {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-add-user>*/}
+        {/*<wcu-icon-add {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-add>*/}
+        {/*<wcu-icon-alert-close-collapse {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-alert-close-collapse>*/}
+        {/*<wcu-icon-alert-error-c {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-alert-error-c>*/}
+        {/*<wcu-icon-alert-error-circle-c {...{ size, styles, classNames, color, rotate, spin }}></wcu-icon-alert-error-circle-c>*/}
       </Host>
     );
   }

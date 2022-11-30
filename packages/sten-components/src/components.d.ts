@@ -58,6 +58,18 @@ export namespace Components {
     interface WcuImage {
     }
     interface WcuLoading {
+        "background": string;
+        "customClass": string;
+        "isFullScreen": boolean;
+        "spinner": boolean;
+        "text": string;
+        "visible": boolean;
+    }
+    interface WcuTag {
+        "closable": boolean;
+        "color": string;
+        "size": 'medium'|'small'|'large'|'mini';
+        "type": 'success'|'info'|'danger'|'warning'|'text';
     }
 }
 declare global {
@@ -91,12 +103,19 @@ declare global {
         prototype: HTMLWcuLoadingElement;
         new (): HTMLWcuLoadingElement;
     };
+    interface HTMLWcuTagElement extends Components.WcuTag, HTMLStencilElement {
+    }
+    var HTMLWcuTagElement: {
+        prototype: HTMLWcuTagElement;
+        new (): HTMLWcuTagElement;
+    };
     interface HTMLElementTagNameMap {
         "my-component": HTMLMyComponentElement;
         "wcu-button": HTMLWcuButtonElement;
         "wcu-icon": HTMLWcuIconElement;
         "wcu-image": HTMLWcuImageElement;
         "wcu-loading": HTMLWcuLoadingElement;
+        "wcu-tag": HTMLWcuTagElement;
     }
 }
 declare namespace LocalJSX {
@@ -152,6 +171,18 @@ declare namespace LocalJSX {
     interface WcuImage {
     }
     interface WcuLoading {
+        "background"?: string;
+        "customClass"?: string;
+        "isFullScreen"?: boolean;
+        "spinner"?: boolean;
+        "text"?: string;
+        "visible"?: boolean;
+    }
+    interface WcuTag {
+        "closable"?: boolean;
+        "color"?: string;
+        "size"?: 'medium'|'small'|'large'|'mini';
+        "type"?: 'success'|'info'|'danger'|'warning'|'text';
     }
     interface IntrinsicElements {
         "my-component": MyComponent;
@@ -159,6 +190,7 @@ declare namespace LocalJSX {
         "wcu-icon": WcuIcon;
         "wcu-image": WcuImage;
         "wcu-loading": WcuLoading;
+        "wcu-tag": WcuTag;
     }
 }
 export { LocalJSX as JSX };
@@ -170,6 +202,7 @@ declare module "@stencil/core" {
             "wcu-icon": LocalJSX.WcuIcon & JSXBase.HTMLAttributes<HTMLWcuIconElement>;
             "wcu-image": LocalJSX.WcuImage & JSXBase.HTMLAttributes<HTMLWcuImageElement>;
             "wcu-loading": LocalJSX.WcuLoading & JSXBase.HTMLAttributes<HTMLWcuLoadingElement>;
+            "wcu-tag": LocalJSX.WcuTag & JSXBase.HTMLAttributes<HTMLWcuTagElement>;
         }
     }
 }
