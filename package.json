@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "start:components": "lerna run start --scope=@sten-design/components",
+    "generate:components": "lerna run generate --scope=@sten-design/components"
   },
   "config": {
     "commitizen": {
@@ -20,7 +22,7 @@
   },
   "dependencies": {
     "clean-webpack-plugin": "^4.0.0",
-    "stencil": "^0.0.5"
+    "@stencil/core": "^2.19.3"
   },
   "workspaces": [
     "packages/*"

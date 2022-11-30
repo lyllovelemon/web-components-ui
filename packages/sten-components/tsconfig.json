@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
-    "allowUnreachableCode": true,
+    "allowUnreachableCode": false,
     "declaration": false,
     "experimentalDecorators": true,
     "lib": [
@@ -16,7 +16,9 @@
     "jsx": "react",
     "jsxFactory": "h"
   },
-  "include": ["src"],
+  "include": [
+    "src"
+  ],
   "exclude": [
     "node_modules"
   ]

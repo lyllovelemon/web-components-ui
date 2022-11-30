@@ -1,7 +1,18 @@
 {
   "name": "@sten-design/icons",
   "version": "1.0.0",
+  "main": "icons/index.js",
+  "module": "icons_esm/index.js",
+  "scripts": {
+    "build": "node build/buildSvgJsonFiles.js"
+  },
+  "devDependencies": {
+    "camelcase": "^6.2.0",
+    "svgo": "^2.7.0",
+    "svgson": "2"
+  },
+  "license": "MIT",
   "dependencies": {
-    
+    "prettier": "^2.8.0"
   }
 }
