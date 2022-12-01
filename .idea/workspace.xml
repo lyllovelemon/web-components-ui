@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="24" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c0930ee3-6414-4fed-be33-e84195a0bab6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -56,8 +58,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="506">
-                <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <first_editor relative-caret-position="-125">
+                <caret line="18" selection-start-line="18" selection-end-line="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -312,7 +314,7 @@
       <workItem from="1669702328806" duration="4144000" />
       <workItem from="1669707045576" duration="8202000" />
       <workItem from="1669772409955" duration="21843000" />
-      <workItem from="1669857352494" duration="3688000" />
+      <workItem from="1669857352494" duration="3976000" />
     </task>
     <task id="LOCAL-00001" summary="feat:lerna初始化">
       <created>1669369202140</created>
@@ -356,17 +358,23 @@
       <option name="project" value="LOCAL" />
       <updated>1669802032365</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="docs:README调整">
+      <created>1669861481945</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669861481946</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57119000" />
+    <option name="totallyTimeSpent" value="57407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="765" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49754903" visible="true" weight="0.023866348" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49754903" visible="true" weight="0.15194908" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.502451" side_tool="true" weight="0.24980111" />
@@ -380,7 +388,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.23163842" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2450658" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.42598686" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.36019737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -690,8 +698,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="506">
-            <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <first_editor relative-caret-position="-125">
+            <caret line="18" selection-start-line="18" selection-end-line="18" />
           </first_editor>
           <second_editor />
         </state>

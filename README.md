@@ -17,7 +17,6 @@ A UI library with Web Component，stencil and Dumi
 
 ![web-components-ui](https://komarev.com/ghpvc/?username=lyllovelemon&color=green)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lyllovelemon)
 
 ## Introduction
 
